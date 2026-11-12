@@ -6,8 +6,17 @@ updates:
       interval: weekly
     groups:
       firebase:
-        patterns: ["firebase-*"]
+        patterns:
+          - firebase-*
+    ignore:
+      - dependency-name: '@types/node'
+        update-types:
+          - version-update:semver-major
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
+    groups:
+      actions:
+        patterns:
+          - "*"
