@@ -1,0 +1,24 @@
+# dependencies and build output
+node_modules/
+functions/lib/
+*.tsbuildinfo
+
+# secrets and local config: keep the .example files only
+.env
+.env.*
+!.env.example
+functions/.env
+functions/.env.*
+!functions/.env.example
+!functions/.env.demo-moonetix
+functions/.secret.local
+.runtimeconfig.json
+.firebaserc
+
+# emulator and debug logs
+*-debug.log
+*.log
+.firebase/
+ui-debug.log
+
+.DS_Store
