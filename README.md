@@ -6,12 +6,11 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-postbacks-004ABB)](https://docs.moonetix.com/postbacks)
 [![Guide](https://img.shields.io/badge/academy-Firebase%20guide-004ABB)](https://moonetix.com/academy/integrations/offerwall-postback-firebase)
-[![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-offerwall-firebase-functions)
 [![Maintained by Moonetix](https://img.shields.io/badge/maintained%20by-Moonetix-004ABB)](https://moonetix.com)
 
 [Moonetix](https://moonetix.com) is an affiliate network. You add its offerwall to your app, your users earn your own currency for completed offers, and Moonetix sends a signed postback for every credit and every reversal. This repo is the Firebase side of that: `moonetixPostback` receives the postback and updates Firestore in a transaction, and `moonetixWallLink` returns the signed offerwall link for the signed-in user.
 
-> **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-firebase-functions**
+> To run it you need your Moonetix App ID and keys: see [Get your keys](#get-your-keys).
 
 ## What you get
 
@@ -174,9 +173,9 @@ The postback function answers with an empty body, so read the status code in Rep
 - Moonetix for [apps](https://moonetix.com/industries/apps) and the [Android](https://moonetix.com/integrations/android), [iOS](https://moonetix.com/integrations/ios) and [Flutter](https://moonetix.com/integrations/flutter) SDKs
 - Tools: [postback hash checker](https://moonetix.com/tools/postback-hash-checker), [offerwall link builder](https://moonetix.com/tools/offerwall-link-builder)
 
-## Start earning
+## Get your keys
 
-**Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-firebase-functions**
+Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-firebase-functions
 
 Every publisher application is reviewed by hand. Once you are approved, add your app, set your currency name and rate, and deploy.
 
